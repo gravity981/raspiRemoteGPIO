@@ -1,0 +1,17 @@
+{
+  "server":
+  {
+    "port": 1500
+  },
+  "device":
+  [
+    {
+      "type": "servo",
+      "gpio": 17
+    },
+    {
+      "type": "servo",
+      "gpio": 27
+    }
+  ]
+}
