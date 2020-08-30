@@ -3,7 +3,6 @@ from GpioDeviceController import GpioDeviceController
 
 
 class GpioHttpServer:
-    _server = None
 
     def __init__(self, port, device_controller: GpioDeviceController):
         MyHandler.device_controller = device_controller
