@@ -1,8 +1,8 @@
 import json
 import sys
 import RPi.GPIO as GPIO
-from server.GpioDeviceController import GpioDeviceController
-from server.GpioHttpServer import GpioHttpServer
+from GpioDeviceController import GpioDeviceController
+from GpioHttpServer import GpioHttpServer
 
 
 def read_config() -> dict:

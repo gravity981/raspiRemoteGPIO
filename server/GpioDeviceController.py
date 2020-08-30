@@ -1,4 +1,4 @@
-from server.ServoDriver import ServoDriver
+from ServoDriver import ServoDriver
 
 
 class GpioDeviceController:

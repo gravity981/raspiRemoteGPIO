@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler,HTTPServer
-from server.GpioDeviceController import GpioDeviceController
+from GpioDeviceController import GpioDeviceController
 
 
 class GpioHttpServer:
